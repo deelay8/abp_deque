@@ -85,8 +85,9 @@ TopLeBot ==
 PoppedNoNull ==
     NULL \notin popped
 
-NoDupPopped ==
+NoDuplicatePop ==
     \A x \in popped:
         \A y \in popped: x = y \/ x # y
+
 
 ====
